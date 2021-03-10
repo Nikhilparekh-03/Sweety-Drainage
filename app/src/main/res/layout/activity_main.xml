@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as ?"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnner"
+        android:layout_marginLeft="100dp">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="E-mail"
+        android:textSize="27dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/elemail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bl"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:text="Password"
+        android:textSize="27dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:paddingTop="9dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/elpass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/bl"
+        android:paddingTop="10dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/log"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fpass"
+        android:text="Forget Password ?"
+        android:textSize="21dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>
